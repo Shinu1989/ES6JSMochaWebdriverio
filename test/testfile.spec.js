@@ -1,7 +1,8 @@
-var  ActionDriver =  require('../core/ActionDrivers.js');
- import homePage from '../pages/HomePage.js';
- import LoginPage from '../pages/LoginPage.js';
- import UserPage from '../pages/UserPage.js';
+//var  ActionDriver =  require('../core/ActionDrivers.js');
+import ActionDriver from '../core/ActionDrivers';
+ //import homePage from '../pages/HomePage.js';
+ //import LoginPage from '../pages/LoginPage.js';
+ //import UserPage from '../pages/UserPage.js';
 
 
 
@@ -9,6 +10,7 @@ var  ActionDriver =  require('../core/ActionDrivers.js');
             it('userPagelogin', function()
              {
                ActionDriver.openUrl();
+               
             })
         })
 

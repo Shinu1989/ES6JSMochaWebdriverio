@@ -1,6 +1,6 @@
 import { expect }  from "chai";
 class ActionDriver{
-openUrl(){
+ openUrl(){
         browser.url('/');
     };
 
@@ -19,4 +19,4 @@ openUrl(){
     };
 };
 
-module.exports = {openUrl};
+export default new ActionDriver();

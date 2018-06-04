@@ -1,6 +1,6 @@
 import ActionDriver from '../core/ActionDrivers.js';
 
-export class LoginPage extends ActionDriver{
+class LoginPage extends ActionDriver{
 
     loginUserPage(text1, text2){
         username ="(//form[contains(@class,'input')]/input)[1]";
@@ -13,3 +13,4 @@ export class LoginPage extends ActionDriver{
         
     }
 }
+export default new LoginPage();
